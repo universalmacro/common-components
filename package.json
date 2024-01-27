@@ -1,6 +1,6 @@
 {
   "name": "@macro-components/common-components",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/index.js",
