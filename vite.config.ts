@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     lib: {
-      entry: resolve(__dirname, './src/components/index.ts'),
+      entry: resolve(__dirname, './src/components/index.tsx'),
         name: 'MyLib',
         fileName: 'common-components'
     },

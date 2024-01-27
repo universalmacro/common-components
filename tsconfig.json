@@ -9,6 +9,7 @@
     "declaration": true,
     "outDir": "./dist",
     "declarationDir": "./dist",
+    "allowJs":true,
   
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -22,7 +23,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src/components"],
+  "include": ["src/components/**/*.ts", "src/components/**/*.d.ts", "src/components/**/*.tsx"],
   "types": [ "node" ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
