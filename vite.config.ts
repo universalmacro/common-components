@@ -19,7 +19,7 @@ export default defineConfig({
         globals: {
           react: 'React'
         },
-        format: 'cjs'
+        // format: 'cjs'
       }
     },
   }
