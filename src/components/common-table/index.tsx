@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import React from "react";
 import { Table, Button, Input } from "antd";
 
 const CommonTable = (props: {
