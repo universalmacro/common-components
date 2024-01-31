@@ -1,8 +1,10 @@
 {
   "name": "@macro-components/common-components",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/common-components.umd.js",
   "module": "./dist/common-components.js",
   "types": "./dist/index.d.ts",
