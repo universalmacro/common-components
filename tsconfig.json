@@ -20,12 +20,10 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "paths": {
-      "@/*": ["./src/*"]
+      "paths": {
+    "@/*": ["./src/*"]
     },
   },
-
-
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx"],
   "types": [ "node" ],
   "references": [{ "path": "./tsconfig.node.json" }]

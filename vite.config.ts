@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, './src/components/index.tsx'),
-        name: 'MyLib',
+        name: 'common-components',
         fileName: 'common-components'
     },
     rollupOptions: {
