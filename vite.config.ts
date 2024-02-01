@@ -21,6 +21,8 @@ export default defineConfig({
         name: 'common-components',
         fileName: 'common-components'
     },
+    target: "es2015",
+    cssTarget: "chrome61",
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
       external: ['react'],
