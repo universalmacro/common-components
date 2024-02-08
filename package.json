@@ -5,9 +5,9 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/common-components.umd.js",
-  "module": "./dist/common-components.js",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test",
