@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+// config
+@import "variables";
+
+// layout
+@import "reboot";
+
+//mixin
+@import "mixin";
+
+// button
+@import "../components/common-table/styles";
