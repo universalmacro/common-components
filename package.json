@@ -1,7 +1,6 @@
 {
   "name": "@macro-components/common-components",
   "version": "0.0.19",
-  "type": "module",
   "files": [
     "dist"
   ],
